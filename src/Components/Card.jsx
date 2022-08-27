@@ -1,10 +1,11 @@
 import React from "react";
 
+import Button from "./UI/Button";
+
 import CardImageMobile from "../Images/image-product-mobile.jpg";
 import CardImageDesktop from "../Images/image-product-desktop.jpg";
 
 import classes from "./Card.module.css";
-import Button from "./UI/Button";
 
 const Card = () => {
   return (
@@ -31,7 +32,7 @@ const Card = () => {
           <span className={`${classes["new-price"]}`}>$149.99</span>
           <span className={`${classes["old-price"]}`}>$169.99</span>
         </div>
-        <Button></Button>
+        <Button />
       </div>
     </div>
   );
